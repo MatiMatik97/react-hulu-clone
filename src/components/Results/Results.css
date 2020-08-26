@@ -1,0 +1,16 @@
+.results>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: scroll !important;
+    padding-bottom: 100px;
+}
+
+.results>div::-webkit-scrollbar {
+    display: none;
+}
+
+.results>div {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
