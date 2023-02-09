@@ -4,6 +4,7 @@
     overflow-x: scroll;
     padding: 10px;
     padding-left: 40px;
+    flex-wrap: wrap;
 }
 
 .nav::-webkit-scrollbar {
@@ -17,7 +18,7 @@
 
 .nav>h2 {
     cursor: pointer;
-    margin: 0 30px;
+    margin: 10px 30px;
     font-weight: 500;
     opacity: 0.7;
     transition: opacity, transform 200ms ease-in-out;

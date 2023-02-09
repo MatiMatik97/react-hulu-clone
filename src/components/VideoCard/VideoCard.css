@@ -40,3 +40,21 @@
 .videoCard__stats>.MuiSvgIcon-root {
     margin: 0 5px;
 }
+
+@media (max-width: 700px) {
+    .videoCard {
+        width: 270px;
+        height: 220px;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .videoCard>* {
+        font-size: 14px;
+    }
+
+    .videoCard>img {
+        height: 150px;
+        width: 250px;
+    }
+}
